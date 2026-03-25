@@ -1,5 +1,20 @@
 # @hyperlane-xyz/deploy-sdk
 
+## 4.2.3
+
+### Patch Changes
+
+- 37255ba: Starknet AltVM follow-up behavior was fixed across the CLI toolchain. Warp apply/update paths now preserve existing Starknet hook and ISM settings when config leaves them unset or uses empty addresses, zero-address hook and ISM references are normalized as unset during provider artifact conversion, and core mailbox bootstrap only passes through existing hook addresses for Starknet while other AltVMs keep zero-address placeholders.
+- Updated dependencies [37255ba]
+  - @hyperlane-xyz/starknet-sdk@27.2.3
+  - @hyperlane-xyz/provider-sdk@4.2.3
+  - @hyperlane-xyz/aleo-sdk@29.1.1
+  - @hyperlane-xyz/cosmos-sdk@29.1.1
+  - @hyperlane-xyz/radix-sdk@29.1.1
+  - @hyperlane-xyz/sealevel-sdk@29.1.1
+  - @hyperlane-xyz/tron-sdk@22.1.7
+  - @hyperlane-xyz/utils@29.1.1
+
 ## 4.2.2
 
 ### Patch Changes
