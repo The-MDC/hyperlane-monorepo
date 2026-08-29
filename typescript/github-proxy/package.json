@@ -30,7 +30,7 @@
     "@hyperlane-xyz/tsconfig": "workspace:^",
     "chai": "catalog:",
     "typescript": "catalog:",
-    "vitest": "1.4.0",
+    "vitest": "3.2.6",
     "wrangler": "^3.74.0"
   }
 }
