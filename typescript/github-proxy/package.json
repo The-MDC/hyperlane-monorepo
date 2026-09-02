@@ -26,7 +26,7 @@
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.4.5",
     "@cloudflare/workers-types": "^4.20240821.1",
-    "@faker-js/faker": "^8.4.1",
+    "@faker-js/faker": "^10.5.0",
     "@hyperlane-xyz/tsconfig": "workspace:^",
     "chai": "catalog:",
     "typescript": "catalog:",
